@@ -9,9 +9,17 @@
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
+    "@near-wallet-selector/core": "^8.5.2",
+    "@near-wallet-selector/here-wallet": "^8.5.2",
+    "@near-wallet-selector/meteor-wallet": "^8.5.2",
+    "@near-wallet-selector/modal-ui": "^8.5.2",
+    "@near-wallet-selector/my-near-wallet": "^8.5.2",
+    "@near-wallet-selector/near-wallet": "^8.5.2",
+    "@thirdweb-dev/chains": "^0.1.52",
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "ethers": "^5",
+    "near-api-js": "^2.1.4",
     "react": "^18.2",
     "react-dom": "^18.2"
   },
